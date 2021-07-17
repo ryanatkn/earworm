@@ -1,0 +1,45 @@
+{
+  "name": "@ryanatkn/earworm",
+  "description": "audio tools",
+  "version": "0.0.1",
+  "license": "Unlicense",
+  "type": "module",
+  "engines": {
+    "node": ">= 14.16.0"
+  },
+  "scripts": {
+    "dev": "gro dev",
+    "build": "gro build",
+    "test": "gro test",
+    "deploy": "gro deploy"
+  },
+  "devDependencies": {
+    "@feltcoop/felt": "^0.4.5",
+    "@feltcoop/gro": "^0.34.2",
+    "@sveltejs/adapter-static": "^1.0.0-next.13",
+    "@sveltejs/kit": "^1.0.0-next.120",
+    "@types/dom-mediacapture-record": "^1.0.10",
+    "prettier": "^2.3.2",
+    "prettier-plugin-svelte": "^2.3.1",
+    "svelte": "^3.38.3",
+    "svelte-preprocess-esbuild": "^2.0.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  },
+  "prettier": {
+    "useTabs": true,
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": false,
+    "svelteBracketNewLine": true,
+    "overrides": [
+      {
+        "files": "package.json",
+        "options": {
+          "useTabs": false
+        }
+      }
+    ]
+  }
+}
