@@ -17,7 +17,7 @@
     "@feltcoop/felt": "^0.4.5",
     "@feltcoop/gro": "^0.34.2",
     "@sveltejs/adapter-static": "^1.0.0-next.13",
-    "@sveltejs/kit": "^1.0.0-next.120",
+    "@sveltejs/kit": "^1.0.0-next.131",
     "@types/dom-mediacapture-record": "^1.0.10",
     "prettier": "^2.3.2",
     "prettier-plugin-svelte": "^2.3.1",
