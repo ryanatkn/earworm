@@ -14,14 +14,14 @@
     "deploy": "gro deploy"
   },
   "devDependencies": {
-    "@feltcoop/felt": "^0.4.5",
-    "@feltcoop/gro": "^0.34.2",
+    "@feltcoop/felt": "^0.5.5",
+    "@feltcoop/gro": "^0.34.3",
     "@sveltejs/adapter-static": "^1.0.0-next.13",
-    "@sveltejs/kit": "^1.0.0-next.131",
+    "@sveltejs/kit": "^1.0.0-next.137",
     "@types/dom-mediacapture-record": "^1.0.10",
     "prettier": "^2.3.2",
     "prettier-plugin-svelte": "^2.3.1",
-    "svelte": "^3.38.3",
+    "svelte": "^3.40.2",
     "svelte-preprocess-esbuild": "^2.0.0",
     "tslib": "^2.3.0",
     "typescript": "^4.3.5"
